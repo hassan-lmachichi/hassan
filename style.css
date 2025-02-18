@@ -5,9 +5,10 @@ ul {
     font-size: 1.3em;
 }
 
-.emoji {
-    font-size: 8em;
-}
+.avatar {
+    border-radius: 50%;
+    height: 350px;
+    width: 350px;}
 
 p,
 ul {
@@ -18,7 +19,7 @@ ul {
 header {
     background: lightblue;
     border: solid blue;
-    border-width: 10px 0px 10px 0px;
+    border-width: 10px 0px 0px px;
     margin: 0 auto;
     text-align: center;
 }
@@ -28,18 +29,19 @@ h1 {
 }
 
 .circle {
-    height: 250px;
-    width: 250px;
-    background: blue;
+    height: 350px;
+    width: 350px;
+    background: rgb(0, 8, 255);
     border-radius: 50%;
     border: 10px solid white;
+    margin: 0 auto;
+    justify-content: center;
     display: inline-block;
 }
-
 h3 {
     background-color: #ce54c7;
-    padding: 15px;
-    font-size: 1.5em;
+    padding: 5px;
+    font-size: 2em;
     border-left: 10px solid #d6d5cd;
 }
 
